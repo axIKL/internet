@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.conteiner{
+    width: 970px;
+    margin: 0 auto;
+}
+.conteiner1{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin: 0 auto;
+}
+.conteiner2{
+    display: flex;
+    margin: 0 auto;
+    width: 970px;
+
+    background: hsla(0, 1%, 81%, 1);
+
+    background: linear-gradient(180deg, hsla(0, 1%, 81%, 1) 0%, hsla(0, 0%, 100%, 1) 18%);
+
+}
+.imagen_hed{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 15px;
+}
+.title_top{
+    font-size: 50px;
+    align-self: end;
+    margin-left: 75px;
+}
+.sp_blu{
+    color: lightskyblue;
+}
+.sp_red{
+    color: red;
+}
+.title2{
+    color: white;
+    padding: 8px;
+}
+.title_bot{
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.center_left{
+    width: 323px;
+    margin: 5px;
+}
+.aside_top{
+    padding-bottom: 30px;
+    border-bottom: black solid 1px;
+}
+.aside_bot{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-image: url("../images/ad_background.png");
+    
+    color: white;
+}
+.title_asid{
+    margin: 20px;
+}
+.center_right{
+    width: 636px;
+    margin: 20px;
+
+}
+.inside_top{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    border-bottom: black solid 1px;
+}
+.inside_right{
+    display: flex;
+    flex-direction: row;
+
+}
+.inside_bot{
+    margin: 20px;
+}
+.mini_inside{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border: lightskyblue solid 5px;
+}
+.lore{
+    margin: 10px 10px 30px 10px;
+}
+.button{
+    width: 300px;
+    padding: 7px 0px 7px 0px;
+    margin-top: 5px;
+    border-radius: 7px;
+    color: white;
+    font-size:15px;
+}
+.blu{
+    background-color:  rgb(91, 91, 234);
+}
+.orang{
+    background-color: orange;
+}
+.img_nin{
+    width: 100px;
+    margin: 10px 10px 30px 10px;
+}
+.img_ho{
+    width: 20px;
+}
+.img_pho{
+    width: 70px;
+    height: 70px;
+}
+.img_server{
+    width: 300px;
+    margin: 0 auto;
+}
+.img_htm{
+    width: 150px;
+    height: 150px;
+}
+.num{
+    font-size: 40px;
+}
+.dns{
+    text-decoration: none;
+}
+.img_cent{
+    display: flex;
+}
+.title_asid2{
+    margin: 5px;
+}
